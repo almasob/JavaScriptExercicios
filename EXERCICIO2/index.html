@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Segundo Exercício</title>
+    </head>
+    <body>
+        <header>
+            <h1>Verificador de IdentIDADE</h1>
+        </header>
+        <section>
+            <div>
+                <p>
+                    Ano de nascimento: <input type="number" id = 'anoNasc' min="0" placeholder='xxxx'>
+                </p>
+                <p>
+                    Sexo:
+                    <input type="radio" name="sex" id="masc" value="masculino" checked>
+                    <label for = 'masc'>Masculino</label>
+                    <input type="radio" name="sex" id="femi" value="feminino">
+                    <label for = 'femi' >Feminino</label>
+                </p>    
+                <p id = 'pbtn'>
+                    <button onclick="verificar()">Verificar</button>
+                </p>
+            </div>
+            <div id = 'res'>
+            </div>            
+        </section>
+        <footer>
+            <p>&copy; CursoemVideo</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

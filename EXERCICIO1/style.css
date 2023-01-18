@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+    font-family: Arial;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+header{
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.534);
+}
+
+header, footer{
+    color: rgb(255, 0, 234);
+    text-align: center;
+
+}
+
+section{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
+    padding: 10px;
+}
+
+div{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer{
+font-style: italic;
+font-weight: bold;
+}
+
+#imagem{
+    width: 450px;
+    height: 450px;
+    border-radius: 100px;
+}
