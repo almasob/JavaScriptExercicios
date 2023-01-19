@@ -13,7 +13,7 @@ header, footer{
 }
 
 section{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 500px;
     margin: auto;
     border-radius: 10px;
@@ -24,3 +24,4 @@ section{
 footer{
 font-style: italic;
 }
+
