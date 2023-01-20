@@ -3,6 +3,35 @@ body{
     font-family: Arial;
 }
 
+label{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+input,textarea{
+    font-style: italic;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px;
+    
+}
+
+input{
+    background-color: rgba(247, 181, 181, 0.582);
+    width: 10%;
+    border-radius: 50px;
+    color: rgb(180, 10, 143);
+    text-align: center;
+}
+
+textarea{
+    color: green;
+    background-color:rgba(247, 181, 181, 0.151);
+    border-radius: 10%;
+}
+
+
 h1{
     font-size: 3rem;
 }
@@ -19,6 +48,23 @@ section{
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
     padding: 10px;
+}
+
+section div {
+    padding: 10px;
+}
+
+button{
+    border: 3px outset rgb(98, 0, 128) ;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 20%;
+    background-color: rgba(0, 225, 255, 0.342);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(180, 10, 143);
 }
 
 footer{
