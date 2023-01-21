@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(115, 207, 207);
+    font-family: fangsong;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+header, footer{
+    color: white;
+    text-align: center;
+
+}
+
+label{
+    font-size: 21px;
+}
+
+section{
+    background-color: white;
+    width: 550px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
+    padding: 10px;
+}
+
+#cima {
+   padding: 15px 0;
+}
+
+footer{
+font-style: italic;
+}
+
+#numeros{
+    width: 30%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#btn-add, #ver, #lim{
+    font-family: fangsong;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+}
+
+#ver{
+    background-color: blue;
+}
+#lim{
+    background-color: red;
+}
+#num{
+    padding: 2px;
+    font-size: 15px;
+    border: none;
+    background-color: rgba(169, 236, 197, 0.705);
+    font-weight: bold;
+    margin: 0 9px;
+}
