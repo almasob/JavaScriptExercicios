@@ -25,11 +25,13 @@ btn.addEventListener("click", () => {
     res.innerHTML = ns.join(" ");
   }
 
-  if (dados[0].value < 0 || dados[1].value < 0) {
+  if (dados[0].value < 0 || dados[1].value < 0 ||  dados[1].value.length == 0 || dados[0].value.length == 0){
     alert("[ERRO] Não é possível contar! Reveja as informações!");
   } else if (dados[2].value <= 0) {
     alert("[ERRO]Passo inválido! Será considerado 1 !");
     p = 1;
+    console.log(dados[0].value.length)
+    console.log(dados[1].value.length)
     if (dados[0].value < dados[1].value) {
       contar();
     } else {
