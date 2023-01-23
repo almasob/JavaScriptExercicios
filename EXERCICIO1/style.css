@@ -1,18 +1,16 @@
 body{
 
     background-color: red;
+    box-sizing: border-box;
     font-family: Arial;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 h1{
+    box-sizing: border-box;
     font-size: 4rem;
-    margin: 0;
-}
-
-header{
+    margin: 20px 0;
     text-shadow: 4px 4px rgba(0, 0, 0, 0.534);
 }
 
@@ -24,18 +22,19 @@ header, footer{
 
 section{
     background-color: white;
-    width: 80%;
-    margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
+    box-sizing: border-box;
+    margin: 30px auto;
     padding: 10px;
+    width: 80%;
 }
 
 div{
-    text-align: center;
     font-size: 2rem;
     font-weight: bold;
     padding: 10px;
+    text-align: center;
 }
 
 footer{
@@ -44,25 +43,16 @@ font-weight: bold;
 }
 
 #imagem{
-    width: 450px;
-    height: 450px;
     border-radius: 100px;
+    height: 50%;
+    width: 50%;
 }
 
 @media screen and (max-width:760px) {
-    section{
-        box-sizing: border-box;
-        width: 80%;
-    }
-
-    #imagem{
-        width: 50%;
-        height: 50%;
-    }
 
     h1{
-        box-sizing: border-box;
         font-size: 3.5rem;
+        text-shadow: 3px 3px rgba(0, 0, 0, 0.534);
     }
 
     div{
@@ -74,11 +64,15 @@ font-weight: bold;
 @media screen and (max-width:500px){
     h1{
         font-size: 2.5rem;
-        text-shadow: 3px 3px rgba(0, 0, 0, 0.534);
+        margin: 20px 0;
     }
+
     div{
         font-size: 1rem;
-        
+    }
+
+    section{
+        margin: 50px auto;
     }
 
 }
