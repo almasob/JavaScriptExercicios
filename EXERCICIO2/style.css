@@ -1,24 +1,43 @@
 body{
+    margin:0;
+    padding: 0;
     background-color: rgb(115, 207, 207);
     font-family: Arial;
+    width: 100%;
+    height: 100vh;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 1.5rem;
+    margin: 0;
+    
+}
+
+p{
+    font-size: .9rem;
+    text-align: center;
+}
+
+#anoNasc{
+    width: 40%;
 }
 
 header, footer{
     color: white;
     text-align: center;
+    height: 10vh;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 section{
     background-color: white;
-    width: 500px;
-    margin: auto;
+    width: 80%;
+    margin: 30px auto 0;
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
     padding: 10px;
+    box-sizing: border-box;
 }
 
 footer{
@@ -26,10 +45,10 @@ font-style: italic;
 }
 
 #imagem{
-    width: 300px;
-    height: 300px;
+    width: 80%;
+    height: 80%;
     border-radius: 50px;
-    box-shadow: 8px 8px 5px rgba(8, 166, 187, 0.411);
+    box-shadow: 5px 5px 5px  rgba(8, 166, 187, 0.411);
 }
 
 #pbtn{
@@ -39,13 +58,38 @@ font-style: italic;
 button{
     width: 30%;
     background-color: rgba(8, 166, 187, 0.411);
-    font-size: 20px;
+    font-size: 1rem;
     color: white;
     font-weight: bold;
     
 }
 
 #res{
-    font-size: 1.1rem;
+    font-size: .6rem;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (min-width:600px){
+
+   h1{
+    font-size: 2rem;
+    }
+
+    p,#anoNasc,button{
+        font-size: 1.3rem;
+    }
+
+    #res{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    h1{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
 }
