@@ -1,25 +1,65 @@
 body{
     background-color: rgb(115, 207, 207);
     font-family: Arial;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
+header, footer{
+    color: white;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px 0;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
+}
+
+section div {
+    padding: 10px;
+}
+
+button{
+    border: 2px outset rgb(98, 0, 128) ;
+    margin-left: 9px;
+    padding: 5px;
+    border-radius: 20%;
+    background-color: rgba(0, 255, 157, 0.342);
+    font: oblique bold .9rem Arial;
+    color: rgb(180, 10, 143);
+}
+
 
 label{
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 input,textarea{
     font-style: italic;
     font-weight: bold;
     border: none;
-    font-size: 1.2rem;
+    font-size: .9rem;
     padding: 5px;
     
 }
 
 input{
     background-color: rgba(247, 181, 181, 0.582);
-    width: 10%;
+    width: 15%;
     border-radius: 50px;
     color: rgb(180, 10, 143);
     text-align: center;
@@ -31,43 +71,32 @@ textarea{
     border-radius: 10%;
 }
 
-
-h1{
-    font-size: 3rem;
-}
-
-header, footer{
-    color: white;
-    text-align: center;
-}
-
-section{
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
-    padding: 10px;
-}
-
-section div {
-    padding: 10px;
-}
-
-button{
-    border: 3px outset rgb(98, 0, 128) ;
-    padding: 5px;
-    margin-left: 30px;
-    border-radius: 20%;
-    background-color: rgba(0, 225, 255, 0.342);
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
-    font-weight: bold;
-    color: rgb(180, 10, 143);
-}
-
 footer{
 font-style: italic;
+}
+
+@media screen and (min-width:680px) {
+    section{
+        max-width: 500px;
+    }
+
+    h1{
+        font-size:2.5rem;
+    }
+
+    section div{
+        text-align: center;
+        
+    }
+
+    textarea{
+        width: 30%;
+    }
+
+    input,textarea,label{
+        font-size: 1.1rem;
+    }
+
+
 }
 
