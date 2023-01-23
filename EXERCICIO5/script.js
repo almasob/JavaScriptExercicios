@@ -17,6 +17,7 @@ function adicionar(){
         }else{
             numeros.innerHTML += `<option>Valor ${n} adicionado!`
             listaNum.push(n)
+            res.innerHTML = ''
         }
     }
 

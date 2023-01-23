@@ -1,10 +1,15 @@
 body{
+
     background-color: red;
     font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
     font-size: 4rem;
+    margin: 0;
 }
 
 header{
@@ -19,7 +24,7 @@ header, footer{
 
 section{
     background-color: white;
-    width: 700px;
+    width: 80%;
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.479);
@@ -42,4 +47,38 @@ font-weight: bold;
     width: 450px;
     height: 450px;
     border-radius: 100px;
+}
+
+@media screen and (max-width:760px) {
+    section{
+        box-sizing: border-box;
+        width: 80%;
+    }
+
+    #imagem{
+        width: 50%;
+        height: 50%;
+    }
+
+    h1{
+        box-sizing: border-box;
+        font-size: 3.5rem;
+    }
+
+    div{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    h1{
+        font-size: 2.5rem;
+        text-shadow: 3px 3px rgba(0, 0, 0, 0.534);
+    }
+    div{
+        font-size: 1rem;
+        
+    }
+
 }
