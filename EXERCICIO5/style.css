@@ -58,6 +58,7 @@ section{
     display: block;
     padding: 5px;
     margin: 10px 0;
+    height: 30vh;
 }
 
 #btn-add, #ver, #lim{
