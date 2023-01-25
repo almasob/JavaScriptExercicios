@@ -75,6 +75,15 @@ footer{
 font-style: italic;
 }
 
+#vol{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: aqua;
+    width: 20%;
+    border: none;
+    border-radius: 100%;
+    font-size: .9rem;
+}
+
 @media screen and (min-width:680px) {
     section{
         max-width: 500px;

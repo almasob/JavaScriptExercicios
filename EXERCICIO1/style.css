@@ -46,6 +46,16 @@ font-weight: bold;
     border-radius: 100px;
     height: 50%;
     width: 50%;
+    max-height: 500px;
+}
+
+#vol{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: aqua;
+    width: 20%;
+    border: none;
+    border-radius: 100%;
+    font-size: .9rem;
 }
 
 @media screen and (max-width:760px) {
